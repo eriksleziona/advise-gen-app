@@ -1,9 +1,11 @@
 import HomePage from "./modules/Home/pages/HomePage";
-
+import { AppProvider } from "./Context/Context";
 function App() {
   return (
     <>
-      <HomePage />
+      <AppProvider>
+        <HomePage />
+      </AppProvider>
     </>
   );
 }
