@@ -10,7 +10,7 @@ const HomePage: FC = () => {
   return (
     <div className="home-container">
       <div className="home-container__text-box">
-        <div className="home-container__title">ADVICE {adviceMsg.id}</div>
+        <div className="home-container__title">ADVICE #{adviceMsg.id}</div>
         <div className="home-container__advice">{adviceMsg.advice}</div>
         <img className="home-container__sep" src={sep} alt="" />
       </div>
