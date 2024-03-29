@@ -1,0 +1,56 @@
+:root {
+  --neon-green-color: #53ffaa;
+}
+.home-container {
+  background-color: #313a48;
+  width: 540px;
+  height: 332px;
+  border-radius: 15px;
+  margin: 0 auto;
+  margin-top: 223px;
+  position: relative;
+  &__text-box {
+    padding: 40px;
+  }
+
+  &__title {
+    text-align: center;
+    color: var(--neon-green-color);
+    font-weight: bolder;
+    font-size: 13px;
+    letter-spacing: 4.09px;
+  }
+
+  &__advice {
+    margin-top: 24px;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bolder;
+    text-align: center;
+    letter-spacing: -0.3px;
+    text-indent: 10px;
+  }
+
+  &__sep {
+    width: 100%;
+    margin-top: 40px;
+  }
+  &__dice {
+    position: absolute;
+    top: 300px;
+    left: 238px;
+    background-color: var(--neon-green-color);
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__dice:hover {
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0px 0px 50px var(--neon-green-color);
+  }
+}
